@@ -1,7 +1,3 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
-
-# Project-001 : Checkout_Page (JS-01)
 
 ## Description
 Project aims to create a real checkout page of e-commerce website.
@@ -32,14 +28,4 @@ At the end of the this project, students will be able to;
    - When I change any combination of product chart(plus, minus, remove etc.), I want to see the new calculation of chart's prices in concerned fields.
 
 
-## Resources
 
-- [Images](./IMG/)
-
-- [Fonts](./FONTS/)
-
-- 🔥 You don’t need to create a new html template in this project, you can use [Checkout_Page](https://github.com/clarusway/clarusway-full-stack-10-21/tree/main/javascript/Projects/005-Checkout_Page/) template. We will be concerned in javascript side.
- 
-
-
-<center> ⌛ Happy Coding  ✍ </center>
