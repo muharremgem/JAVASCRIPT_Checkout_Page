@@ -60,15 +60,15 @@ window.addEventListener("load", ()=>{
 
  }
 
-// const calculateCartPrice = () =>{
-//     const productsTotalPricesDivs = document.querySelectorAll(".product-line-price");
-//     //foreach ==> NodeList, Array
-//     //const productsTotalPricesDivs = [...document.getElementsByClassName("product-line-price")];
+ const calculateCartPrice = () =>{
+     const productsTotalPricesDivs = document.querySelectorAll(".product-line-price");
+     //foreach ==> NodeList, Array
+     //const productsTotalPricesDivs = [...document.getElementsByClassName("product-line-price")];
 
-//     let subtotal = 0;
-//     productsTotalPricesDivs.forEach(div =>{
-//         subtotal += parseFloat(div.innerText);
-//     });
+     let subtotal = 0;
+     productsTotalPricesDivs.forEach(div =>{
+         subtotal += parseFloat(div.innerText);
+     });
 //     //console.log(subtotal);
 //     const taxPrice = subtotal * localStorage.getItem("taxRate");
 
