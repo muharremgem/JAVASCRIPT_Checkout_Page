@@ -49,16 +49,16 @@ window.addEventListener("load", ()=>{
      }
  });
 
-// const calculateProductPrice = (btn) =>{
-//     const productInfoDiv = btn.parentElement.parentElement;
-//     //console.log(productInfoDiv);
-//     const price = productInfoDiv.querySelector(".product-price strong").innerText;
-//     const quantity = productInfoDiv.querySelector(".quantity").innerText;
-//     const productTotalDiv = productInfoDiv.querySelector(".product-line-price");
-//     productTotalDiv.innerText = (price * quantity).toFixed(2);
-//     //alert(quantity);
+ const calculateProductPrice = (btn) =>{
+     const productInfoDiv = btn.parentElement.parentElement;
+     //console.log(productInfoDiv);
+     const price = productInfoDiv.querySelector(".product-price strong").innerText;
+     const quantity = productInfoDiv.querySelector(".quantity").innerText;
+     const productTotalDiv = productInfoDiv.querySelector(".product-line-price");
+     productTotalDiv.innerText = (price * quantity).toFixed(2);
+     //alert(quantity);
 
-// }
+ }
 
 // const calculateCartPrice = () =>{
 //     const productsTotalPricesDivs = document.querySelectorAll(".product-line-price");
