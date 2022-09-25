@@ -12,6 +12,7 @@ main {
   grid-template-columns: 465px 320px;
 }
 
+
 #checkout-title {
   font-family: Mon, Arial, Helvetica, sans-serif;
   text-align: center;
@@ -23,6 +24,7 @@ main form {
   position: relative;
   width: 80%;
 }
+
 
 .data-form {
   font-family: Mon;
@@ -83,6 +85,7 @@ main form {
   display: inline-block;
   width: auto;
 }
+
 
 #country-field div select {
   border: none;
@@ -152,6 +155,7 @@ main form {
   color: #4e5150;
   margin: 5px 0;
 }
+
 
 .product-info p {
   font-size: 12px;
@@ -241,6 +245,7 @@ i {
   font-size: 18px;
   font-weight: bold;
 }
+
 
 
 @media only screen and (max-width: 1450px) {
@@ -547,6 +552,7 @@ i {
   width: auto;
   margin-top: 10px;
 }
+
 
 .product-line-price:before {
   content: "Product Total: $";
