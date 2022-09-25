@@ -2,6 +2,7 @@
 // const shippingPrice = 15;
 // const shippingFreePrice = 300;
 
+
 window.addEventListener("load", () => {
   calculateCartPrice();
   //set items to LocalStorage
@@ -73,6 +74,7 @@ const calculateCartPrice = () => {
   productsTotalPricesDivs.forEach((div) => {
     subtotal += parseFloat(div.innerText);
   });
+  
   //console.log(subtotal);
   const taxPrice = subtotal * localStorage.getItem("taxRate");
 
@@ -86,6 +88,7 @@ const calculateCartPrice = () => {
 
   document.querySelector("#cart-subtotal").lastElementChild.innerText =
     subtotal.toFixed(2);
+  
   document.querySelector("#cart-tax p:nth-child(2)").innerText =
     taxPrice.toFixed(2);
   document.querySelector("#cart-shipping").children[1].innerText =
